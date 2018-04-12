@@ -10,12 +10,15 @@ swoole-jobs跟ThinkPHP5 结合示范
 
 ## 安装插件
 * swoole
+* redis
+* php-redis
 * rabbitmq
 * rabbitmq-c
 * php-amqp
 
 ## 注意事项
 用rabbitmq的延时队列 要安装rabbitmq_delayed_message_exchange插件
+redis和rabbitmq不能混用
 
 ## 感谢
 * kcloze https://github.com/kcloze/swoole-jobs
